@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/principalFragment"
+            android:icon="@drawable/baseline_admin_panel_settings_24"
+            android:title="@string/titulofragmentprincipal" />
+        <item
+            android:id="@+id/notasFragment"
+            android:icon="@drawable/baseline_comment_24"
+            android:title="@string/titulofragmentnotas" />
+        <item
+            android:id="@+id/reservaFragment"
+            android:icon="@drawable/baseline_event_available_24"
+            android:title="@string/titulofragmentreserva" />
+        <item
+            android:id="@+id/asistenciaFragment"
+            android:icon="@drawable/baseline_co_present_24"
+            android:title="@string/titulofragmentasistencia" />
+        <item
+            android:id="@+id/justificacionFragment"
+            android:icon="@drawable/baseline_edit_note_24"
+            android:title="@string/titulofragmentjustificacion" />
+    </group>
+</menu>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    app:cardCornerRadius="10dp"
+
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:paddingTop="7dp">
+
+        <!-- Borde lateral de color turquesa -->
+        <View
+            android:id="@+id/borderView"
+            android:layout_width="8dp"
+            android:layout_height="0dp"
+            android:background="@android:color/holo_blue_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Fecha de reserva Label -->
+        <TextView
+            android:id="@+id/txtLabelFechaReserva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Fecha reserva:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/borderView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Fecha de reserva Valor -->
+        <TextView
+            android:id="@+id/txtFechaReserva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="..."
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/txtLabelFechaReserva"
+            app:layout_constraintTop_toTopOf="@id/txtLabelFechaReserva" />
+
+        <!-- Aula Label -->
+        <TextView
+            android:id="@+id/txtLabelAula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="Aula:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/txtFechaReserva"
+            app:layout_constraintTop_toTopOf="@id/txtFechaReserva" />
+
+        <!-- Aula Valor -->
+        <TextView
+            android:id="@+id/txtAula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="..."
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/txtLabelAula"
+            app:layout_constraintTop_toTopOf="@id/txtLabelAula" />
+
+        <!-- Hora de inicio Label -->
+        <TextView
+            android:id="@+id/txtLabelHoraInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hora inicio:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/txtLabelFechaReserva"
+            app:layout_constraintTop_toBottomOf="@id/txtLabelFechaReserva" />
+
+        <!-- Hora de inicio Valor -->
+        <TextView
+            android:id="@+id/txtHoraInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="..."
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/txtLabelHoraInicio"
+            app:layout_constraintTop_toTopOf="@id/txtLabelHoraInicio" />
+
+        <TextView
+            android:id="@+id/txtLabelHoraFin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="Hora fin:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/txtHoraInicio"
+            app:layout_constraintTop_toTopOf="@id/txtHoraInicio" />
+
+        <TextView
+            android:id="@+id/txtHoraFin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="..."
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/txtLabelHoraFin"
+            app:layout_constraintTop_toTopOf="@id/txtLabelHoraFin" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

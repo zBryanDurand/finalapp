@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">AppInstituto</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cerrar Sesión</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulofragmentprincipal">PRINCIPAL</string>
+    <string name="titulofragmentnotas">NOTAS</string>
+    <string name="titulofragmentreserva">RESERVA</string>
+    <string name="titulofragmentasistencia">ASISTENCIA</string>
+    <string name="titulofragmentjustificacion">JUSTIFICACIÓN</string>
+    <string name="valpromedio">TU PROMEDIO FINAL ES: %.2f</string>
+    <string name="valtitulo">Reservar Aula</string>
+    <string name="btnreservar">Reservar</string>
+    <string name="txttitulo">Mi Asistencia</string>
+    <string name="txttitulo1">Justificación de Asistencia</string>
+    <string name="tvid852828" />
+    <string name="tvid">ID:</string>
+    <string name="sdvsdvsv">Fecha:</string>
+    <string name="tvestado">Estado:</string>
+    <string name="tvingresa">Ingresa tu justificación:</string>
+    <string name="fqwswdfadx">Enviar</string>
+    <string name="valetusuario">Ingrese su usuario</string>
+    <string name="valetpassword">Ingrese su password</string>
+    <string name="valchkguardardatos">Recordar</string>
+    <string name="valbtnlogin">INICIAR SESIÓN</string>
+    <string name="txterminos">Términos y Condiciones</string>
+    <string name="valbtnenviar">ENVIAR</string>
+    <string name="valasisfecha">Fecha:</string>
+    <string name="valasisestado">Estado:</string>
+    <string name="tvfecha">Fecha:</string>
+</resources>
